@@ -104,6 +104,5 @@ Navigate to the `frontend` folder and open `index.html` in a browser.
 ## Author
 adarshInTech
 
----
-**Happy Coding! 🚀**
+
 
