@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="login-form">
+        <h2>Login</h2>
+        <input type="email" placeholder="email" id="login-email" required />
+        <input
+          type="password"
+          id="login-password"
+          placeholder="Password"
+          requierd
+        />
+        <button onclick="login()">Login</button>
+        <p>
+          Don't have an account?
+          <a href="#" onclick="showSignup()">Sign up</a>
+        </p>
+      </div>
+
+      <div id="signup-form">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Full Name" required />
+        <input type="email" id="signup-email" placeholder="email" required />
+        <input
+          type="password"
+          id="signup-password"
+          placeholder="password"
+          required
+        />
+        <button onclick="signup()">Sign up</button>
+        <p>
+          Already have an account?
+          <a href="#" onclick="showLogin()">Login</a>
+        </p>
+      </div>
+
+      <div id="logout-section">
+        <h2>Welcome</h2>
+        <p>You are logged in</p>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
