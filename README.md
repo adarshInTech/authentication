@@ -102,7 +102,7 @@ Navigate to the `frontend` folder and open `index.html` in a browser.
 - Database Validation & Error Handling
 
 ## Author
-[Your Name] - Full-Stack Developer
+[adarshInTech] - Full-Stack Developer
 
 ---
 **Happy Coding! 🚀**
